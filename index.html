@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Background Image Slider</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="slider">
+            <a onclick="plusSlides(-1)" class="prev-btn">&#10094;</a>
+            <a onclick="plusSlides(1)" class="next-btn">&#10095;</a>
+        </div>
+        <div class="slides fade">
+            <div class="number-rank">1 / 5</div>
+            <img src="/images/image1.jpg" alt="photo">
+        </div>
+        <div class="slides fade">
+            <div class="number-rank">2 / 5</div>
+            <img src="/images/image2.jpg" alt="photo">
+        </div>
+        <div class="slides fade">
+            <div class="number-rank">3 / 5</div>
+            <img src="/images/image3.jpg" alt="photo">
+        </div>
+        <div class="slides fade">
+            <div class="number-rank">4 / 5</div>
+            <img src="/images/image4.jpg" alt="photo">
+        </div>
+        <div class="slides fade">
+            <div class="number-rank">5 / 5</div>
+            <img src="/images/image5.jpg" alt="photo">
+        </div>
+
+        <div class="radio-selection">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
